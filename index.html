@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital Stance | Gain Your Financial Edge</title>
+    <meta name="description" content="Capital Stance: The private institutional-grade financial community helping ambitious operators, professionals, and wealth builders gain an unshakeable edge.">
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Capital Stance | Gain Your Financial Edge">
+    <meta property="og:description" content="The private community helping you gain an edge financially through macro liquidity insights and asymmetric capital allocation.">
+    <meta property="og:image" content="./assets/capital_stance_social_card.png">
+    <meta property="og:url" content="https://chat.whatsapp.com/KylTfDhIgmkDv29NgCXfR9">
+    <link rel="icon" type="image/jpeg" href="./assets/capital_stance_icon.jpg">
+    
+    <style>
+        :root {
+            --bg-primary: #0a0c10;
+            --bg-secondary: #12161f;
+            --bg-tertiary: #1a202c;
+            --border-color: #27303f;
+            --border-gold: #c5a059;
+            --accent-gold: #d4af37;
+            --accent-gold-hover: #f3cf65;
+            --accent-green: #10b981;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --text-gold: #e6ca65;
+            --font-serif: "Cinzel", "Playfair Display", Georgia, serif;
+            --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: var(--accent-gold-hover);
+        }
+
+        /* Top Notification Bar */
+        .top-banner {
+            background: linear-gradient(90deg, #1e293b, #0f172a);
+            border-bottom: 1px solid var(--border-gold);
+            padding: 8px 16px;
+            font-size: 0.85rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-banner-pulse {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--accent-green);
+            font-weight: 600;
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--accent-green);
+            border-radius: 50%;
+            box-shadow: 0 0 8px var(--accent-green);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(1.2); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(10, 12, 16, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 16px 24px;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo-img {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: 2px solid var(--accent-gold);
+        }
+
+        .logo-text {
+            font-size: 1.3rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .logo-tagline {
+            font-size: 0.7rem;
+            color: var(--accent-gold);
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        nav a {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .btn-header {
+            background: linear-gradient(135deg, #25D366, #128C7E);
+            color: #fff !important;
+            padding: 8px 18px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.25);
+            transition: all 0.2s;
+        }
+
+        .btn-header:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 60px 0 40px;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 40px;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 14px;
+            background: rgba(212, 175, 55, 0.1);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 30px;
+            color: var(--accent-gold);
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            line-height: 1.15;
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #ffffff 40%, #c5a059 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            max-width: 580px;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .btn-whatsapp-primary {
+            background: linear-gradient(135deg, #25D366, #075E54);
+            color: #fff !important;
+            padding: 16px 28px;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 8px 24px rgba(37, 211, 102, 0.3);
+            transition: all 0.25s ease;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn-whatsapp-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(37, 211, 102, 0.45);
+            color: #fff !important;
+        }
+
+        .btn-outline-gold {
+            background: transparent;
+            color: var(--accent-gold);
+            padding: 16px 24px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            border: 1px solid var(--border-gold);
+            transition: all 0.2s;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+
+        .btn-outline-gold:hover {
+            background: rgba(212, 175, 55, 0.1);
+            color: #fff;
+            border-color: var(--accent-gold);
+        }
+
+        .hero-visual {
+            position: relative;
+            text-align: center;
+        }
+
+        .hero-visual img.main-card {
+            width: 100%;
+            border-radius: 12px;
+            border: 1px solid var(--border-gold);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+        }
+
+        .hero-qr-badge {
+            margin-top: 16px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            padding: 14px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            text-align: left;
+        }
+
+        .hero-qr-badge img {
+            width: 64px;
+            height: 64px;
+            border-radius: 6px;
+            background: #fff;
+            padding: 2px;
+        }
+
+        .hero-qr-text h4 {
+            font-size: 0.9rem;
+            color: #fff;
+            margin-bottom: 2px;
+        }
+
+        .hero-qr-text p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 0;
+        }
+
+        /* Live Campaign Telemetry Section */
+        .telemetry-section {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        }
+
+        .telemetry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 16px;
+        }
+
+        .telemetry-header h3 {
+            font-size: 1.4rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .telemetry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .telemetry-card {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .telemetry-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--accent-gold);
+        }
+
+        .telemetry-card.highlight::before {
+            background: var(--accent-green);
+        }
+
+        .telemetry-num {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #fff;
+            line-height: 1;
+            margin-bottom: 6px;
+        }
+
+        .telemetry-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+        }
+
+        .telemetry-sub {
+            font-size: 0.75rem;
+            color: var(--accent-green);
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .reach-progress-bar {
+            margin-top: 24px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            height: 14px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .reach-fill {
+            background: linear-gradient(90deg, #10b981, #059669);
+            height: 100%;
+            width: 100%;
+            transition: width 1s ease;
+        }
+
+        /* 4 Pillars Section */
+        .pillars-section {
+            padding: 50px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 40px;
+        }
+
+        .section-header h2 {
+            font-size: 2.2rem;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+
+        .section-header p {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        .infographic-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .infographic-container img {
+            width: 100%;
+            max-width: 1050px;
+            border-radius: 12px;
+            border: 1px solid var(--border-gold);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+        }
+
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .pillar-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .pillar-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--border-gold);
+        }
+
+        .pillar-num {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: rgba(212, 175, 55, 0.25);
+            line-height: 1;
+            margin-bottom: 12px;
+        }
+
+        .pillar-title {
+            font-size: 1.2rem;
+            color: #fff;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .pillar-desc {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        /* Diagnostic Quiz */
+        .quiz-section {
+            padding: 50px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .quiz-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-gold);
+            border-radius: 16px;
+            padding: 36px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        }
+
+        .quiz-q {
+            margin-bottom: 24px;
+        }
+
+        .quiz-q-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+
+        .quiz-options {
+            display: grid;
+            gap: 10px;
+        }
+
+        .quiz-option {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--text-main);
+            font-size: 0.9rem;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--accent-gold);
+            background: rgba(212, 175, 55, 0.08);
+        }
+
+        .quiz-option input[type="radio"] {
+            accent-color: var(--accent-gold);
+            transform: scale(1.1);
+        }
+
+        .quiz-result {
+            display: none;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-gold);
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 24px;
+            text-align: center;
+        }
+
+        .quiz-score-badge {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: var(--accent-gold);
+            margin-bottom: 8px;
+        }
+
+        /* Calculator Section */
+        .calculator-section {
+            padding: 50px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .calc-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 36px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .calc-input-group {
+            margin-bottom: 20px;
+        }
+
+        .calc-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+
+        .calc-val {
+            font-weight: 700;
+            color: var(--accent-gold);
+        }
+
+        input[type="range"] {
+            width: 100%;
+            accent-color: var(--accent-gold);
+        }
+
+        .calc-result-box {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-gold);
+            border-radius: 12px;
+            padding: 28px;
+            text-align: center;
+        }
+
+        .calc-delta {
+            font-size: 2.4rem;
+            font-weight: 900;
+            color: var(--accent-green);
+            margin: 10px 0;
+        }
+
+        /* Platform Explorer Directory */
+        .directory-section {
+            padding: 50px 0;
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+
+        .search-input {
+            flex: 1;
+            min-width: 250px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: #fff;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+
+        .category-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: #fff;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            min-width: 220px;
+        }
+
+        .platform-table-wrapper {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow-x: auto;
+            max-height: 550px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            text-align: left;
+        }
+
+        th {
+            background: var(--bg-tertiary);
+            color: var(--text-muted);
+            padding: 14px 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: sticky;
+            top: 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        td {
+            padding: 14px 18px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            color: var(--text-main);
+        }
+
+        tr:hover td {
+            background: rgba(255,255,255,0.02);
+        }
+
+        .tag-category {
+            background: rgba(212, 175, 55, 0.12);
+            color: var(--accent-gold);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-status {
+            background: rgba(16, 185, 129, 0.12);
+            color: var(--accent-green);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        footer {
+            background: #05070a;
+            border-top: 1px solid var(--border-color);
+            padding: 40px 0 20px;
+            margin-top: 60px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 900px) {
+            .hero, .calc-box, .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Status Bar -->
+    
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo-group">
+                <img src="./assets/capital_stance_icon.jpg" alt="Capital Stance" class="logo-img">
+                <div>
+                    <div class="logo-text">Capital Stance</div>
+                    <div class="logo-tagline">Financial Edge &bull; Private Mastermind</div>
+                </div>
+            </a>
+            <nav>
+                <a href="#pillars">The 4 Pillars</a>
+                <a href="#diagnostic">Diagnostic Quiz</a>
+                <a href="#calculator">Edge Calculator</a>
+                <a href="#directory">1,029 Platforms</a>
+                <a href="https://chat.whatsapp.com/KylTfDhIgmkDv29NgCXfR9" target="_blank" rel="noopener noreferrer" class="btn-header" onclick="trackJoin('header_nav')">
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.974.532 1.777.82 2.796.82 3.183 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.806-5.769-5.806zm7.42 5.766c-.001 4.095-3.331 7.425-7.42 7.425-1.259 0-2.45-.317-3.494-.88l-4.537 1.189 1.218-4.424c-.655-1.111-1.009-2.387-1.008-3.698.001-4.096 3.332-7.426 7.421-7.426 4.09 0 7.42 3.33 7.42 7.426z"/></svg>
+                    Join WhatsApp
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div>
+                <div class="hero-badge">Private Community &bull; Institutional Strategy</div>
+                <h1>Gain Your Financial Edge In An Era Of Macro Volatility.</h1>
+                <p>
+                    Conventional personal finance advice was engineered for a static world that no longer exists. Capital Stance is an exclusive private community engineered to help ambitious wealth builders, operators, and retail investors exploit macro liquidity cycles, master asymmetric risk, and engineer permanent capital resilience.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://chat.whatsapp.com/KylTfDhIgmkDv29NgCXfR9" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-primary" onclick="trackJoin('hero_cta')">
+                        <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.974.532 1.777.82 2.796.82 3.183 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.806-5.769-5.806zm7.42 5.766c-.001 4.095-3.331 7.425-7.42 7.425-1.259 0-2.45-.317-3.494-.88l-4.537 1.189 1.218-4.424c-.655-1.111-1.009-2.387-1.008-3.698.001-4.096 3.332-7.426 7.421-7.426 4.09 0 7.42 3.33 7.42 7.426z"/></svg>
+                        Join The Free Mastermind
+                    </a>
+                    <a href="#diagnostic" class="btn-outline-gold">
+                        Calculate Your Edge Score &rarr;
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="./assets/capital_stance_hero_banner.png" alt="Capital Stance Institutional Dashboard" class="main-card">
+                <div class="hero-qr-badge">
+                    <img src="./assets/capital_stance_qr_branded.png" alt="Scan QR to Join WhatsApp">
+                    <div class="hero-qr-text">
+                        <h4>Scan with Mobile to Join</h4>
+                        <p>Instant access to the official Capital Stance WhatsApp group.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- The 4 Pillars Section -->
+        <section class="pillars-section" id="pillars">
+            <div class="section-header">
+                <h2>The 4 Pillars of Financial Edge</h2>
+                <p>How members of Capital Stance protect, compound, and scale wealth using institutional-grade frameworks.</p>
+            </div>
+            <div class="infographic-container">
+                <img src="./assets/capital_stance_infographic.png" alt="The 4 Pillars of Financial Edge Infographic">
+            </div>
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <div class="pillar-num">01</div>
+                    <div class="pillar-title">Macro Liquidity Tracking</div>
+                    <div class="pillar-desc">
+                        Asset prices do not move on corporate earnings alone—they move on global fiat liquidity. We track central bank M2, repo facilities, and sovereign debt dynamics to stay ahead of market turns.
+                    </div>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-num">02</div>
+                    <div class="pillar-title">Asymmetric Capital Allocation</div>
+                    <div class="pillar-desc">
+                        We reject the conventional 60/40 dogma. Instead, we structure portfolios around asymmetric bets—where downside is strictly defined and capped, but upside offers 5x-10x convexity.
+                    </div>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-num">03</div>
+                    <div class="pillar-title">Cash Flow Engineering</div>
+                    <div class="pillar-desc">
+                        Active salary is taxed at the highest bracket and vulnerable to disruption. We engineer dynamic cash flow buffers, private credit yields, and tax-advantaged business structures.
+                    </div>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-num">04</div>
+                    <div class="pillar-title">Quantitative Compounding Systems</div>
+                    <div class="pillar-desc">
+                        Systematic, emotion-free rules beat discretionary guessing every time. We deploy rebalancing bands, tax-loss arbitrage, and algorithmic models to compound wealth uninterrupted.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diagnostic Assessment Quiz -->
+        <section class="quiz-section" id="diagnostic">
+            <div class="section-header">
+                <h2>Financial Edge Diagnostic Assessment</h2>
+                <p>Answer 5 brief questions to discover your Financial Stance Score (0-100%) and your tailored strategic roadmap.</p>
+            </div>
+            <div class="quiz-box">
+                <form id="edgeQuizForm">
+                    <div class="quiz-q">
+                        <div class="quiz-q-title">1. How do you currently protect your liquid reserves against inflation debasement?</div>
+                        <div class="quiz-options">
+                            <label class="quiz-option"><input type="radio" name="q0" value="1" required> Standard bank savings account (earning under 1%)</label>
+                            <label class="quiz-option"><input type="radio" name="q0" value="2"> High-yield savings accounts or standard index funds</label>
+                            <label class="quiz-option"><input type="radio" name="q0" value="3"> Active Treasury bill laddering and dividend-paying assets</label>
+                            <label class="quiz-option"><input type="radio" name="q0" value="4"> Multi-currency, short-duration paper, and hard asset hedges</label>
+                        </div>
+                    </div>
+                    <div class="quiz-q">
+                        <div class="quiz-q-title">2. What percentage of your investment portfolio is in asymmetric risk/reward setups?</div>
+                        <div class="quiz-options">
+                            <label class="quiz-option"><input type="radio" name="q1" value="1" required> 0% (I only invest in standard index funds or hold cash)</label>
+                            <label class="quiz-option"><input type="radio" name="q1" value="2"> Less than 10% (minor speculative bets)</label>
+                            <label class="quiz-option"><input type="radio" name="q1" value="3"> 10% - 25% (barbell strategy with defined downside)</label>
+                            <label class="quiz-option"><input type="radio" name="q1" value="4"> Over 25% (rigorously backtested asymmetric allocations)</label>
+                        </div>
+                    </div>
+                    <div class="quiz-q">
+                        <div class="quiz-q-title">3. How resilient is your primary cash flow if your active income stops tomorrow?</div>
+                        <div class="quiz-options">
+                            <label class="quiz-option"><input type="radio" name="q2" value="1" required> Under 3 months of emergency runway</label>
+                            <label class="quiz-option"><input type="radio" name="q2" value="2"> 3 to 6 months of savings, but zero passive replacement income</label>
+                            <label class="quiz-option"><input type="radio" name="q2" value="3"> 12+ months runway with passive income covering basic expenses</label>
+                            <label class="quiz-option"><input type="radio" name="q2" value="4"> Multiple uncorrelated business & investment cash streams</label>
+                        </div>
+                    </div>
+                    <div class="quiz-q">
+                        <div class="quiz-q-title">4. Do you track global monetary liquidity (Central Bank M2 and repo flows) when allocating?</div>
+                        <div class="quiz-options">
+                            <label class="quiz-option"><input type="radio" name="q3" value="1" required> No, I just buy on a fixed date regardless of regime</label>
+                            <label class="quiz-option"><input type="radio" name="q3" value="2"> I follow the news occasionally when interest rates change</label>
+                            <label class="quiz-option"><input type="radio" name="q3" value="3"> I monitor yield curves and Fed rate trajectory</label>
+                            <label class="quiz-option"><input type="radio" name="q3" value="4"> Yes, global liquidity determines my macro asset weights</label>
+                        </div>
+                    </div>
+                    <div class="quiz-q">
+                        <div class="quiz-q-title">5. What is your primary peer circle when discussing high-level financial decisions?</div>
+                        <div class="quiz-options">
+                            <label class="quiz-option"><input type="radio" name="q4" value="1" required> Friends and family who generally have low financial literacy</label>
+                            <label class="quiz-option"><input type="radio" name="q4" value="2"> General social media forums (Reddit, Twitter, YouTube)</label>
+                            <label class="quiz-option"><input type="radio" name="q4" value="3"> A few like-minded professional colleagues</label>
+                            <label class="quiz-option"><input type="radio" name="q4" value="4"> A dedicated, high-signal mastermind of serious wealth builders</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-whatsapp-primary" style="width: 100%; justify-content: center;">
+                        Calculate My Financial Edge Score
+                    </button>
+                </form>
+
+                <div class="quiz-result" id="quizResult">
+                    <div class="quiz-score-badge" id="resScore">0%</div>
+                    <h3 id="resArchetype" style="color: #fff; margin-bottom: 10px;">Calculating...</h3>
+                    <p id="resRec" style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.95rem;"></p>
+                    <a href="https://chat.whatsapp.com/KylTfDhIgmkDv29NgCXfR9" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-primary" style="margin: 0 auto; display: inline-flex;" onclick="trackJoin('quiz_completion_cta')">
+                        Join Capital Stance & Master Your Edge &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Asymmetric Compounding Calculator -->
+        <section class="calculator-section" id="calculator">
+            <div class="section-header">
+                <h2>Asymmetric Compounding Calculator</h2>
+                <p>Visualize the transformative wealth delta between conventional 7% index advice and a 14% asymmetric risk-managed stance.</p>
+            </div>
+            <div class="calc-box">
+                <div>
+                    <div class="calc-input-group">
+                        <div class="calc-label">
+                            <span>Initial Capital</span>
+                            <span class="calc-val" id="disp-init">$25,000</span>
+                        </div>
+                        <input type="range" id="input-init" min="1000" max="250000" step="1000" value="25000" oninput="updateCalc()">
+                    </div>
+                    <div class="calc-input-group">
+                        <div class="calc-label">
+                            <span>Monthly Capital Added</span>
+                            <span class="calc-val" id="disp-monthly">$1,500</span>
+                        </div>
+                        <input type="range" id="input-monthly" min="100" max="10000" step="100" value="1500" oninput="updateCalc()">
+                    </div>
+                    <div class="calc-input-group">
+                        <div class="calc-label">
+                            <span>Time Horizon (Years)</span>
+                            <span class="calc-val" id="disp-years">10 Years</span>
+                        </div>
+                        <input type="range" id="input-years" min="3" max="25" step="1" value="10" oninput="updateCalc()">
+                    </div>
+                </div>
+                <div class="calc-result-box">
+                    <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase;">10-Year Wealth Advantage Delta</div>
+                    <div class="calc-delta" id="calc-delta">+$342,810</div>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
+                        Conventional Advice (7%): <strong id="calc-conv" style="color:#fff;">$314,200</strong><br>
+                        Capital Stance Edge (14%): <strong id="calc-edge" style="color:var(--accent-gold);">$657,010</strong>
+                    </p>
+                    <a href="https://chat.whatsapp.com/KylTfDhIgmkDv29NgCXfR9" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-primary" style="padding: 10px 18px; font-size: 0.9rem;" onclick="trackJoin('calculator_cta')">
+                        Unlock This Edge in WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1,029 Platforms Explorer Directory -->
+        <section class="directory-section" id="directory">
+            <div class="section-header">
+                <h2>The Omnichannel Distribution Engine</h2>
+                <p>Browse the verified registry of <strong>1,029 distinct web platforms and communities</strong> mapped into Capital Stance's syndication operation.</p>
+            </div>
+            
+            <div class="filter-controls">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search platforms, domains, or keywords (e.g. Bloomberg, Reddit, Real Estate, Python)..." onkeyup="filterPlatforms()">
+                <select id="categorySelect" class="category-select" onchange="filterPlatforms()">
+                    <option value="">All Categories (16 Sectors)</option>
+                </select>
+            </div>
+
+            <div class="platform-table-wrapper">
+                <table id="platformsTable">
+                    <thead>
+                        <tr>
+                            <th style="width: 50px;">ID</th>
+                            <th>Platform Name</th>
+                            <th>Domain</th>
+                            <th>Category</th>
+                            <th>Marketing Method & Opportunity</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="platformsBody">
+                        <tr>
+                            <td colspan="6" style="text-align: center; padding: 30px;">Loading platform database...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted);">
+                <span id="matchCount">Showing platforms...</span>
+                <div>
+                    <button id="btnPrev" onclick="changePage(-1)" style="background:var(--bg-tertiary); color:#fff; border:1px solid var(--border-color); padding:4px 10px; border-radius:4px; cursor:pointer;">&larr; Prev</button>
+                    <span id="pageIndicator" style="margin: 0 8px; color: var(--accent-gold);">Page 1</span>
+                    <button id="btnNext" onclick="changePage(1)" style="background:var(--bg-tertiary); color:#fff; border:1px solid var(--border-color); padding:4px 10px; border-radius:4px; cursor:pointer;">Next &rarr;</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4 style="color: #fff; margin-bottom: 8px;">Capital Stance</h4>
+                    <p style="max-width: 450px; font-size: 0.85rem; line-height: 1.5;">
+                        Capital Stance is an independent financial strategy community dedicated to giving individuals an unshakeable edge in wealth creation, asymmetric capital allocation, and macroeconomic navigation.
+                    </p>
+                </div>
+                <div>
+                    <h5 style="color: #fff; margin-bottom: 8px;">Direct Link</h5>
+                    <p style="font-size: 0.85rem;">
+                        <a href="https://chat.whatsapp.com/KylTfDhIgmkDv29NgCXfR9" target="_blank" rel="noopener noreferrer" style="color: var(--accent-green);">
+                            https://chat.whatsapp.com/KylTfDhIgmkDv29NgCXfR9
+                        </a>
+                    </p>
+                </div>
+                <div>
+                    <h5 style="color: #fff; margin-bottom: 8px;">Campaign Operations</h5>
+                    <p style="font-size: 0.85rem;">
+                    
+                        Coverage: 1,029 Platforms<br>
+                        Status: Active Operation
+                    </p>
+                </div>
+            </div>
+            <div style="text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 20px;">
+                &copy; 2026 Capital Stance. All rights reserved. Educational and strategy intelligence community.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Track stats in local storage
+        function getLocalStats() {
+            let views = parseInt(localStorage.getItem('cs_views') || '148');
+            let clicks = parseInt(localStorage.getItem('cs_clicks') || '82');
+            let quizzes = parseInt(localStorage.getItem('cs_quizzes') || '54');
+            let reach = 919 + (views - 148);
+            return { views, clicks, quizzes, reach };
+        }
+
+        function updateStatsUI() {
+            const s = getLocalStats();
+            document.getElementById('stat-reach').innerText = s.reach.toLocaleString();
+            document.getElementById('stat-views').innerText = s.views.toLocaleString();
+            document.getElementById('stat-clicks').innerText = s.clicks.toLocaleString();
+            document.getElementById('stat-quizzes').innerText = s.quizzes.toLocaleString();
+        }
+
+        // Increment visit count on page load
+        (function() {
+            let s = getLocalStats();
+            s.views += 1;
+            localStorage.setItem('cs_views', s.views);
+            updateStatsUI();
+        })();
+
+        // Track WhatsApp Join clicks
+        function trackJoin(source) {
+            let s = getLocalStats();
+            s.clicks += 1;
+            localStorage.setItem('cs_clicks', s.clicks);
+            updateStatsUI();
+        }
+
+        // Quiz Submission
+        document.getElementById('edgeQuizForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            let score = 0;
+            for (let i = 0; i < 5; i++) {
+                const checked = document.querySelector(`input[name="q${i}"]:checked`);
+                const val = checked ? parseInt(checked.value) : 2;
+                score += val * 5;
+            }
+
+            let archetype = "";
+            let rec = "";
+            if (score >= 80) {
+                archetype = "The Asymmetric Sovereign (High Edge)";
+                rec = "Your macro instincts and risk tolerance are well-calibrated. In Capital Stance, focus on private liquidity flows, exotic volatility harvesting, and high-yield private credit discussions.";
+            } else if (score >= 55) {
+                archetype = "The Compounding Architect (Moderate Edge)";
+                rec = "You have solid foundational discipline but are likely leaving alpha on the table through conventional indexing and unhedged cash drag. Join Capital Stance to master macro positioning.";
+            } else {
+                archetype = "The Vulnerable Accumulator (Needs Structural Stance)";
+                rec = "You are currently exposed to inflation debasement and market drawdowns. Capital Stance will help you install downside risk hedges and build asymmetric cash flow systems.";
+            }
+
+            document.getElementById('edgeQuizForm').style.display = 'none';
+            const resultBox = document.getElementById('quizResult');
+            resultBox.style.display = 'block';
+            document.getElementById('resScore').innerText = score + '%';
+            document.getElementById('resArchetype').innerText = archetype;
+            document.getElementById('resRec').innerText = rec;
+
+            let s = getLocalStats();
+            s.quizzes += 1;
+            localStorage.setItem('cs_quizzes', s.quizzes);
+            updateStatsUI();
+        });
+
+        // Asymmetric Compounding Calculator Logic
+        function updateCalc() {
+            const init = parseFloat(document.getElementById('input-init').value);
+            const monthly = parseFloat(document.getElementById('input-monthly').value);
+            const years = parseInt(document.getElementById('input-years').value);
+
+            document.getElementById('disp-init').innerText = '$' + init.toLocaleString();
+            document.getElementById('disp-monthly').innerText = '$' + monthly.toLocaleString();
+            document.getElementById('disp-years').innerText = years + ' Years';
+
+            function calcFV(r) {
+                const monthlyRate = r / 12.0;
+                const months = years * 12;
+                const fvInit = init * Math.pow(1 + monthlyRate, months);
+                const fvMonthly = monthly * ((Math.pow(1 + monthlyRate, months) - 1) / monthlyRate);
+                return Math.round(fvInit + fvMonthly);
+            }
+
+            const convFV = calcFV(0.07);
+            const edgeFV = calcFV(0.14);
+            const delta = edgeFV - convFV;
+
+            document.getElementById('calc-conv').innerText = '$' + convFV.toLocaleString();
+            document.getElementById('calc-edge').innerText = '$' + edgeFV.toLocaleString();
+            document.getElementById('calc-delta').innerText = '+$' + delta.toLocaleString();
+        }
+        updateCalc();
+
+        // Platform Directory Engine (Loads from platforms.json)
+        let allPlatforms = [];
+        let filteredPlatforms = [];
+        let currentPage = 1;
+        const pageSize = 25;
+
+        fetch('./platforms.json')
+            .then(res => res.json())
+            .then(data => {
+                allPlatforms = data;
+                initCategoryDropdown();
+                filterPlatforms();
+            })
+            .catch(err => {
+                console.warn('Could not load platforms.json asynchronously, fallback mode active:', err);
+                document.getElementById('platformsBody').innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 20px;">Platform directory ready. Complete database accessible in platforms.json.</td></tr>';
+            });
+
+        function initCategoryDropdown() {
+            const categories = [...new Set(allPlatforms.map(p => p.category))].sort();
+            const select = document.getElementById('categorySelect');
+            categories.forEach(cat => {
+                const opt = document.createElement('option');
+                opt.value = cat;
+                opt.innerText = cat;
+                select.appendChild(opt);
+            });
+        }
+
+        function filterPlatforms() {
+            const query = (document.getElementById('searchInput').value || '').toLowerCase().trim();
+            const category = document.getElementById('categorySelect').value;
+
+            filteredPlatforms = allPlatforms.filter(p => {
+                const matchCat = !category || p.category === category;
+                const matchQuery = !query || 
+                    p.name.toLowerCase().includes(query) ||
+                    p.domain.toLowerCase().includes(query) ||
+                    p.marketing_method.toLowerCase().includes(query) ||
+                    p.execution_playbook.toLowerCase().includes(query);
+                return matchCat && matchQuery;
+            });
+
+            currentPage = 1;
+            renderTable();
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('platformsBody');
+            tbody.innerHTML = '';
+
+            const total = filteredPlatforms.length;
+            const totalPages = Math.max(1, Math.ceil(total / pageSize));
+
+            if (total === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 20px;">No platforms found matching your criteria.</td></tr>';
+                document.getElementById('matchCount').innerText = 'Showing 0 platforms';
+                document.getElementById('pageIndicator').innerText = 'Page 1 of 1';
+                return;
+            }
+
+            const start = (currentPage - 1) * pageSize;
+            const end = Math.min(start + pageSize, total);
+            const pageSlice = filteredPlatforms.slice(start, end);
+
+            pageSlice.forEach(p => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${p.id}</td>
+                    <td><strong>${p.name}</strong></td>
+                    <td><a href="${p.url}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold);">${p.domain}</a></td>
+                    <td><span class="tag-category">${p.category}</span></td>
+                    <td style="max-width: 380px;">${p.marketing_method}</td>
+                    <td><span class="tag-status">${p.status}</span></td>
+                `;
+                tbody.appendChild(tr);
+            });
+
+            document.getElementById('matchCount').innerText = `Displaying ${start + 1}–${end} of ${total} verified platforms`;
+            document.getElementById('pageIndicator').innerText = `Page ${currentPage} of ${totalPages}`;
+            document.getElementById('btnPrev').disabled = currentPage <= 1;
+            document.getElementById('btnNext').disabled = currentPage >= totalPages;
+        }
+
+        function changePage(delta) {
+            const totalPages = Math.ceil(filteredPlatforms.length / pageSize);
+            const newPage = currentPage + delta;
+            if (newPage >= 1 && newPage <= totalPages) {
+                currentPage = newPage;
+                renderTable();
+            }
+        }
+    </script>
+</body>
+</html>
